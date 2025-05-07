@@ -1,0 +1,93 @@
+{
+    "Java": {
+      "year": "1995",
+      "creators": "James Gosling",
+      "paradigms": ["Orientada a objetos", "Imperativa"],
+      "uses": "Aplicações corporativas, Android, back-end web",
+      "history": "A linguagem Java surgiu em 1991 no Green Project da Sun Microsystems, liderado por James Gosling, com o objetivo de integrar computadores a dispositivos do dia a dia. Inicialmente chamada de Oak, foi criada para o protótipo *7, um controle remoto com touchscreen. A ideia era inovadora, mas o mercado ainda não estava pronto. Com a ascensão da internet, Oak foi adaptada para a web e renomeada para Java em 1995. Projetada para funcionar em redes de dispositivos heterogêneos, Java se destacou com os Applets executados nos navegadores. Sua adoção foi rápida e, em 2004, já contava com 3 milhões de desenvolvedores. Hoje, Java é amplamente usada em diversas plataformas, de servidores a dispositivos móveis.",
+      "creations": "Minecraft, IntelliJ IDEA, Android Studio, Spotify, Uber, Oracle",
+      "curiosities": "Java foi inicialmente chamada de Oak."
+    },
+    "cpp": {
+        "year": "1983",
+        "creators": "Bjarne Stroustrup",
+        "paradigms": ["multi-paradigma, suportando programação procedural, orientação a objetos e genérica"],
+        "uses": "desde sistemas operacionais e jogos até software de alto desempenho e hardware",
+        "history": "O C++ foi criado por Bjarne Stroustrup nos anos 1980, nos Bell Labs, com base na linguagem C, buscando incorporar recursos de orientação a objetos inspirados na Simula 67. Inicialmente chamado de C with Classes, tornou-se C++ em 1983 e passou a contar com um compilador próprio. Ao longo do tempo, ganhou funcionalidades como sobrecarga de operadores, herança múltipla e tratamento de exceções. Sua biblioteca padrão também evoluiu, destacando-se a STL, desenvolvida por Alexander Stepanov. Em 1998, o C++ foi padronizado pelo comitê ANSI/ISO. Apesar de ter se distanciado do C com o tempo, foi a única linguagem a sucedê-lo com sucesso, influenciando outras como Java e C#..",
+        "creations": "Adobe Acrobat, Amazon, MySQL, Mozilla Firefox, windows, PCSX@(Emulador de playstation), macOS, Unreal Engine, JVM",
+        "curiosities": "A linguagem C inspirou diversas outras como C++, Java e Go."
+      },
+    "c": {
+    "year": "1972",
+    "creators": "Dennis Ritchie",
+    "paradigms": ["Procedural", "Imperativa"],
+    "uses": "Sistemas operacionais, drivers, sistemas embarcados, compiladores",
+    "history": "Desenvolvida por Dennis Ritchie nos laboratórios Bell em 1972, a linguagem C surgiu como uma evolução da B e foi usada para reescrever o Unix. Tornou-se popular por sua eficiência, portabilidade e controle direto sobre hardware, sendo amplamente adotada no desenvolvimento de sistemas e ferramentas de baixo nível.",
+    "creations": "Unix, Linux, Windows (partes), Python (em C), Git, SQLite",
+    "curiosities": "A linguagem C serviu de base para diversas outras, como C++, C#, Java, Objective-C e Go."
+  },
+  "csharp": {
+    "year": "2000",
+    "creators": "Anders Hejlsberg (Microsoft)",
+    "paradigms": ["Orientada a objetos", "Imperativa", "Funcional"],
+    "uses": "Desenvolvimento Windows, aplicações web (ASP.NET), jogos (Unity)",
+    "history": "C# foi desenvolvida pela Microsoft no início dos anos 2000 como parte da plataforma .NET, liderada por Anders Hejlsberg. Inspirada em C++ e Java, a linguagem buscava ser simples, moderna e segura, oferecendo ferramentas para aplicações robustas tanto desktop quanto web.",
+    "creations": "Microsoft Office, Visual Studio, Unity, Stack Overflow, unityhub",
+    "curiosities": "O nome C# faz referência ao símbolo musical ‘dó sustenido’, indicando uma evolução do C++."
+  },
+  "Ruby": {
+    "year": "1995",
+    "creators": "Yukihiro Matsumoto",
+    "paradigms": ["Orientada a objetos", "Funcional", "Imperativa"],
+    "uses": "Desenvolvimento web, scripts, automações",
+    "history": "Ruby foi criada por Yukihiro Matsumoto no Japão com a ideia de tornar a programação mais agradável e produtiva. Mistura características de Perl, Smalltalk, Eiffel e Lisp. Tornou-se popular com o framework Ruby on Rails, lançado em 2004, que facilitou o desenvolvimento web.",
+    "creations": "GitHub (inicialmente), Airbnb (início), Shopify, Basecamp",
+    "curiosities": "Tudo em Ruby é um objeto, inclusive números e valores booleanos."
+  },
+  "Python": {
+    "year": "1991",
+    "creators": "Guido van Rossum",
+    "paradigms": ["Imperativa", "Orientada a objetos", "Funcional"],
+    "uses": "Ciência de dados, back-end web, automações, IA, scripts",
+    "history": "Criada por Guido van Rossum e lançada em 1991, Python foi projetada para ser simples, legível e poderosa. Influenciada por ABC, C e Modula-3, se popularizou na academia e na indústria, sendo hoje uma das linguagens mais usadas no mundo, com aplicações em quase todas as áreas da computação.",
+    "creations": "Instagram, YouTube, Dropbox, Reddit, TensorFlow",
+    "curiosities": "Python recebeu esse nome em homenagem ao grupo de comédia britânico Monty Python."
+  },
+  "Lua": {
+    "year": "1993",
+    "creators": "Roberto Ierusalimschy, Luiz Henrique de Figueiredo e Waldemar Celes (PUC-Rio)",
+    "paradigms": ["Imperativa", "Funcional", "Orientada a objetos (via metatabelas)"],
+    "uses": "Jogos, scripts em softwares, sistemas embarcados",
+    "history": "Lua foi criada no Brasil para ser leve, rápida e embutível, com foco em extensibilidade. Muito usada como linguagem de script em jogos e aplicativos, Lua se destaca por sua simplicidade e flexibilidade.",
+    "creations": "Angry Birds, World of Warcraft (scripts), Adobe Lightroom, Nginx (openresty)",
+    "curiosities": "‘Lua’ significa ‘lua’ em português; o nome não é acrônimo."
+  },
+  "Rust": {
+    "year": "2010",
+    "creators": "Graydon Hoare (Mozilla)",
+    "paradigms": ["Funcional", "Imperativa", "Orientada a objetos"],
+    "uses": "Sistemas, aplicações seguras de alto desempenho, back-end",
+    "history": "Rust foi iniciado por Graydon Hoare e apoiado pela Mozilla como uma linguagem moderna que oferece segurança de memória sem garbage collector. Foca em concorrência, performance e segurança, sendo adotada por empresas como Microsoft, Amazon e Dropbox.",
+    "creations": "Firefox (partes), Amazon Firecracker, Deno, Discord (partes)",
+    "curiosities": "Rust foi eleita por vários anos seguidos a linguagem ‘mais amada’ na pesquisa do Stack Overflow."
+  },
+  "Go": {
+    "year": "2009",
+    "creators": "Robert Griesemer, Rob Pike e Ken Thompson (Google)",
+    "paradigms": ["Imperativa", "Concorrente", "Orientada a objetos (limitada)"],
+    "uses": "Serviços em nuvem, back-end web, sistemas distribuídos",
+    "history": "Go, ou Golang, foi criada no Google para lidar com grandes sistemas e escalabilidade, com foco em simplicidade, desempenho e concorrência. É conhecida por sua sintaxe enxuta, compilação rápida e facilidade em lidar com múltiplas threads.",
+    "creations": "Docker, Kubernetes, Terraform, Hugo",
+    "curiosities": "Ken Thompson, um dos criadores do Unix e da linguagem C, também é co-criador de Go."
+  },
+  "JavaScript": {
+    "year": "1995",
+    "creators": "Brendan Eich",
+    "paradigms": ["Funcional", "Imperativa", "Orientada a objetos"],
+    "uses": "Desenvolvimento web, aplicações front-end e back-end, servidores",
+    "history": "JavaScript foi criado por Brendan Eich em apenas 10 dias na Netscape, com o objetivo de adicionar interatividade às páginas web. Inicialmente chamado de LiveScript, foi renomeado para JavaScript por razões de marketing. Tornou-se essencial para o desenvolvimento web e hoje também roda no back-end com o Node.js.",
+    "creations": "Facebook, Twitter, Gmail, Netflix, Node.js",
+    "curiosities": "Apesar do nome, JavaScript não tem relação direta com Java; foi uma estratégia de marketing."
+  }
+  }
+  
