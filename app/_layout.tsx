@@ -3,8 +3,11 @@ import { useFonts } from 'expo-font';
 import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import 'react-native-reanimated';
+import QuestoesProvider from '../components/contexts/questionsContext';
 
 import { useColorScheme } from '@/hooks/useColorScheme';
+import { Background } from '@react-navigation/elements';
+import { StyleSheet } from 'react-native';
 
 export default function RootLayout() {
   const colorScheme = useColorScheme();
@@ -19,11 +22,19 @@ export default function RootLayout() {
 
   return (
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
-      <Stack>
-        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-        <Stack.Screen name="+not-found" />
-      </Stack>
+
+      <QuestoesProvider>
+        <Stack>
+          <Stack.Screen name="index" options={{ headerShown: true }} />
+          <Stack.Screen name="questoes" options={{ headerShown: true }} />
+          <Stack.Screen name="feedback" options={{ headerShown: true }} />
+          <Stack.Screen name="+not-found" />
+        </Stack>
+      </QuestoesProvider>
+
       <StatusBar style="auto" />
     </ThemeProvider>
   );
 }
+
+
